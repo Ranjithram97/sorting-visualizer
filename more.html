@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More Sortify</title>
+    <link rel="stylesheet" href="moreStyles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="nav">
+      <a class="brand" href="index.html"
+        ><h3>Sorting<span style="font-style: oblique;"> Visualizer</span></h3></a
+      >
+      <div class="nbar">
+        <a href="sort.html" class="navText">Home</a>
+        <a href="#" class="navText activeNav">More</a>
+      </div>
+    </div>
+    <div class="descrip-wrapper">
+      <div class="sort-descrip">
+        <h1 class="title">Bubble Sort</h1>
+        <p class="main-description">
+          Bubble Sort is overall the simplest and most straightforward sorting algorithm. 
+          It uses a brute force technique that checks every element against its neighbor, 
+          swapping them if they are out of order. The algorithm iterates through the array until 
+          it is sorted. It is a comparison sort, and is named for how elements will 
+          bubble to the top or bottom. It is also generally the least efficient sorting algorithm 
+          in terms of time complexity. 
+        </p>
+        <p class="time-complexity">Average Time Complexity: <span>O(n<sup>2</sup>)</span></p>
+        <p class="time-complexity">Worst Case Time Complexity: <span>O(n<sup>2</sup>)</span></p>
+        <p class="links">Links: <a href="https://en.wikipedia.org/wiki/Bubble_sort" target="_blank">Wikipedia</a> - <a href="https://www.youtube.com/watch?v=6Gv8vg0kcHc" target="_blank">Hackerrank Tutorial</a> </p>
+      </div>
+
+      <div class="sort-descrip">
+        <h1 class="title">Merge Sort</h1>
+        <p class="main-description">
+          Merge Sort is a more complex and efficient sorting algorithm. It works 
+          by a divide and conquer method which breaks the larger list into <i>n</i>
+          sublists, and sorts those separately. The algorithm then merges theses sublists
+          into larger ones and separates those separately until the list is finally sorted. 
+          Invented by John von Neumann in 1945, this divide and conquer algorithm is named for 
+          the process of merging smaller sublists during the sorting process. It boasts a rather efficient
+          time complexity and is generally implemented recursively. 
+        </p>
+        <p class="time-complexity">Average Time Complexity: <span>O(n log n)</span></p>
+        <p class="time-complexity">Worst Case Time Complexity: <span>O(n log n)</span></p>
+        <p class="links">Links: <a href="https://en.wikipedia.org/wiki/Merge_sort" target="_blank">Wikipedia</a> - <a href="https://www.youtube.com/watch?v=KF2j-9iSf4Q" target="_blank">Hackerrank Tutorial</a></p>
+      </div>
+
+      <div class="sort-descrip">
+        <h1 class="title">Quick Sort</h1>
+        <p class="main-description">
+          Quick Sort is a very efficient divide and conquer sorting algorithm that is also 
+          commonly referred to as partition-exchange sort. It was developed by
+          Tony Hoare in 1959, and works by sorting sublists depending on their relation to the "pivot" element. 
+          The algorithm, which is a comparison sort that is commonly implemented recursively, has the 
+          potential of outperforming other popular sorting algorithms by two to three times.
+        </p>
+        <p class="time-complexity">Average Time Complexity: <span>O(n log n)</span></p>
+        <p class="time-complexity">Worst Case Time Complexity: <span>O(n log n)</span></p>
+        <p class="links">Links: <a href="https://en.wikipedia.org/wiki/Quicksort" target="_blank">Wikipedia</a> - <a href="https://www.youtube.com/watch?v=SLauY6PpjW4" target="_blank">Hackerrank Tutorial</a></p>
+      </div>
+    </div>
+  </body>
+</html>
